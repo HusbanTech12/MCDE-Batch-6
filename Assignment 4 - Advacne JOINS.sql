@@ -17,3 +17,5 @@ ON e.manager_id = m.staff_id;
 -- Task 42: Find pairs of products from the same brand that have the exact same list price.
 -- Show both product names and the brand name.
 
+SELECT * FROM production.brands
+SELECT * FROM production.products
