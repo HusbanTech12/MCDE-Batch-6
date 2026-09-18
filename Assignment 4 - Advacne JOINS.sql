@@ -5,7 +5,6 @@
 SELECT * FROM sales.staffs;
 
 
-
 SELECT 
  e.first_name + ' ' + e.last_name AS employee,
  m.first_name + ' ' + m.last_name AS manager
@@ -18,4 +17,7 @@ ON e.manager_id = m.staff_id;
 -- Show both product names and the brand name.
 
 SELECT * FROM production.brands
+
 SELECT * FROM production.products
+
+p1.
